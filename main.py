@@ -76,7 +76,7 @@ def search_all(df, search=None):
 
 
 # search is applied to the data like a whitelist filter, starting with the largest identifiers 
-# and wittling out what wasn't specified in the search
+#   and wittling out what wasn't specified in the search.
 def get_selection(df, search=None):
     if search is None:
         search = {
@@ -118,8 +118,8 @@ def get_selection(df, search=None):
 
 
 # A word count between different sized selections can be mute, 
-# since more of a specific word in one selection may be the result of a larger text 
-# rather than a greater emphasis
+#   since more of a specific word in one selection may be the result of a larger text 
+#   rather than a greater emphasis.
 def get_search_density(search_results):
     return len(search_results["searched"]) / search_results["words"]
 
@@ -165,7 +165,7 @@ def analyze_word(dictionary, verse, index=0):
 
 
 # Generalizing the process of selecting either a Volume, Book, etc... into one functions saves space
-# rather than just repeating the code in the different functions with minimal differences between them 
+#   rather than just repeating the code in the different functions with minimal differences between them.
 def select_something(df, search, something, something_key):
     run = True
     
@@ -211,7 +211,7 @@ def select_verse(df, search):
 
 
 def select_search(df):
-    # These act as white listed filters to the data when applied using get_selection()
+    # These act as white listed filters to the data when applied using get_selection().
     search = {
         "volume_titles" : [],
         "book_titles" : [],
@@ -250,11 +250,11 @@ def select_search(df):
             return search
 
 
-# Each individual search is a single analysis that will be compared with other analyses
-# A single search can have several different filters on it
-# Putting 5 in verse_numbers would get every 5th verse of a chapter in the entire database
-# Reccomended usage for multiple additions to a search is applying multiple books if you want to search that section
-# and compare it to a different section
+# Each individual search is a single analysis that will be compared with other analyses.
+# A single search can have several different filters on it.
+# Putting 5 in verse_numbers would get every 5th verse of a chapter in the entire database.
+# Reccomended usage for multiple additions to a search is applying multiple books 
+#   if you want to search that section and compare it to a different section.
 def select_searches(df):
     searches = []
 
