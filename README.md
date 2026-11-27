@@ -1,7 +1,7 @@
 # Overview
 
-{Provide a description of the data set that you are analyzing.  Include the link of where you obtained the data.}
 The data set I am analyzing is of the Old Testament, New Testament, Book of Mormon, Doctrine and Covenants, and Pearl of Great Price. They iterate verse by verse each holding the volume name, book name, chapter number, and verse number.
+[Database Link](https://www.kaggle.com/datasets/molecman/scriptures)
 
 My purpose for writing this software has been to learn and practice how to work with pandas in data analysis. It has also allowed me to utilize a personal passion, being the Scriptures, into a program where I can analyze the word usage in said Scriptures.
 
