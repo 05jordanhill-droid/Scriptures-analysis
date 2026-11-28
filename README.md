@@ -21,7 +21,7 @@ Answer 1: While the answer depends on the given word and given selections, for t
 
 Question 2: What is the density of a given word within a given selection of Scripture and how does that density compare to other selections?
 
-Answer 1: While the answer depends on the given word and given selections, for testing, I compared the Book of Mormon with the New Testament using the word repent. The given results are as follows:
+Answer 2: While the answer depends on the given word and given selections, for testing, I compared the Book of Mormon with the New Testament using the word repent. The given results are as follows:
 
     BoM has "repent" at a density of %0.07663007113513433
     NT has "repent" at a density of %0.013284255389809868
@@ -30,7 +30,7 @@ Answer 1: While the answer depends on the given word and given selections, for t
 
 Question 3: What are the most used words within a given selection of Scripture?
 
-Answer 1: While the answer depends on the given selection, for testing, I analyzed the Book of Mormon. The top 10 words used within in the Book of Mormon along with their data are as follows:
+Answer 3: While the answer depends on the given selection, for testing, I analyzed the Book of Mormon. The top 10 words used within in the Book of Mormon along with their data are as follows:
 
     Total Word Count: 267519
     Word            | Count    | Density
@@ -57,7 +57,7 @@ I used Python for the language of this project. The library module, Pandas, was 
 # Useful Websites
 
 * [Python Pandas Tutorial](https://www.youtube.com/watch?v=EXIgjIBu4EU)
-* [ChatGPT - Python/Pandas Questions](http://url.link.goes.here)
+* [ChatGPT - Python/Pandas Questions](https://chatgpt.com/share/6b0a244d-5d94-83e8-99f0-6a07a5069b71)
 
 # Future Work
 
