@@ -6,8 +6,6 @@ The data set I am analyzing is of the Old Testament, New Testament, Book of Morm
 
 My purpose for writing this software has been to learn and practice how to work with pandas in data analysis. It has also allowed me to utilize a personal passion, being the Scriptures, into a program where I can analyze the word usage in said Scriptures.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and answers, the code running and a walkthrough of the code.}
-
 [Software Demo Video](https://youtu.be/NXKdg0fmVD8)
 
 # Data Analysis Results
