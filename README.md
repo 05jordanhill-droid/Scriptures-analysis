@@ -11,6 +11,7 @@ My purpose for writing this software has been to learn and practice how to work 
 # Data Analysis Results
 
 Question 1: How many occurences of a given word appears in a given selection of Scripture and how does that word count compare to other selections?
+
 Answer 1: While the answer depends on the given word and given selections, for testing, I compared the Book of Mormon with the New Testament using the word repent. The given results are as follows:
 
     BoM has "repent" 205 times
@@ -19,6 +20,7 @@ Answer 1: While the answer depends on the given word and given selections, for t
     "repent" appears in NT 0.11707317073170732 times less than BoM
 
 Question 2: What is the density of a given word within a given selection of Scripture and how does that density compare to other selections?
+
 Answer 1: While the answer depends on the given word and given selections, for testing, I compared the Book of Mormon with the New Testament using the word repent. The given results are as follows:
 
     BoM has "repent" at a density of %0.07663007113513433
@@ -27,6 +29,7 @@ Answer 1: While the answer depends on the given word and given selections, for t
     NT "repent" density is 0.17335564476227053 times less than BoM "repent" density
 
 Question 3: What are the most used words within a given selection of Scripture?
+
 Answer 1: While the answer depends on the given selection, for testing, I analyzed the Book of Mormon. The top 10 words used within in the Book of Mormon along with their data are as follows:
 
     Total Word Count: 267519
